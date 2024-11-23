@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #4c1d50d8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 3;
+}
+
+.container {
+    text-align: center;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 460px;
+}
+
+h1 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 12px 10px; /* Tambahkan padding yang proporsional */
+    margin-bottom: 10px;
+    border: 1px solid #fab4b4;
+    border-radius: 12px;
+    font-size: 1rem; /* Pastikan ukuran font */
+    box-sizing: border-box; /* Memastikan padding tidak memengaruhi ukuran keseluruhan */
+    text-align: center; /* Memastikan teks berada di tengah secara horizontal */
+    line-height: 1.5; /* Menyelaraskan tinggi teks */
+    box-shadow: 0 4px 6px rgba(248, 45, 45, 0.897); 
+}
+
+input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(248, 45, 45, 0.897);
+}
+
+button {
+    width: 100%;
+    padding: 12px 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(248, 45, 45, 0.897); /* Tambahkan bayangan */
+}
+
+button:hover {
+    background-color: #0056b3; /* Warna saat hover */
+    box-shadow: 0 6px 8px rgba(233, 93, 93, 0.897); /* Efek hover lebih tegas */
+}
+
+.error {
+    color: #e63946;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+    display: none;
+}
+
+.success {
+    color: #28a745;
+    font-size: 1rem;
+    margin-top: 10px;
+    display: none;
+}
